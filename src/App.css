@@ -1,39 +1,76 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: #4d5061;
+  color: #eff1f3;
+}
+
 .App {
-  text-align: center;
+  width: 80%;
+  margin: 0 auto;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.home-container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-direction: row;
+  margin: 15% auto;
+  width: 50%;
 }
 
-.App-link {
-  color: #61dafb;
+.icons-container {
+  text-align: center;
+  padding: 0.2rem 0;
+  justify-content: end;
+  margin: 0 auto;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
+.home-content {
+  width: 85%;
+  padding: 0.9rem 0.5rem;
+}
 
-  to {
-    transform: rotate(360deg);
-  }
+.home-content > .name {
+  font-style: italic;
+  filter: drop-shadow(8px 8px 4px #177e89);
+}
+
+.icon {
+  font-size: 1.6rem;
+  padding: 0.6rem 0.4rem 0.1rem 0.4rem;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  margin: 8px 0 0 0;
+}
+
+.linkedin,
+.twitter,
+.github,
+.angelist {
+  border: #000 solid 1px;
+}
+
+.linkedin:hover {
+  border: #fffbfb solid 1px;
+  background-color: #0b66c3;
+  color: #fffbfb;
+}
+
+.twitter:hover {
+  border: #fffbfb solid 1px;
+  background-color: #1da1f2;
+  color: #fffbfb;
+}
+
+.github:hover {
+  border: #fffbfb solid 1px;
+  background-color: #3f3f3f;
+  color: #fffbfb;
+}
+
+.angelist:hover {
+  border: #000 solid 1px;
+  background-color: #fffbfb;
+  color: #000;
 }
