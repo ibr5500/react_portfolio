@@ -1,9 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
 body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background: #4d5061;
-  color: #eff1f3;
+  color: #fffbfb;
+  background-image: url('https://images.pexels.com/photos/3473569/pexels-photo-3473569.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .App {
@@ -15,40 +20,74 @@ body {
   display: flex;
   flex-direction: row;
   margin: 15% auto;
-  width: 50%;
+  width: 55%;
 }
 
 .icons-container {
   text-align: center;
   padding: 0.2rem 0;
   justify-content: end;
-  margin: 0 auto;
 }
 
 .home-content {
-  width: 85%;
-  padding: 0.9rem 0.5rem;
+  padding: 0.5rem 1rem;
+}
+
+.home-content > .greeting {
+  font-size: 1.4rem;
+  font-family: 'Roboto Mono', monospace;
 }
 
 .home-content > .name {
   font-style: italic;
-  filter: drop-shadow(8px 8px 4px #177e89);
+  font-size: 3rem;
+  color: #fffbfb;
+  animation-name: anime;
+  animation-duration: 60s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes anime {
+  0% {
+    color: #fffbfb;
+    filter: drop-shadow(8px 10px 5px #fffbfb);
+  }
+
+  20% {
+    color: #67a799;
+    filter: drop-shadow(8px 10px 5px #67a799);
+  }
+
+  40% {
+    color: #8fd95b;
+    filter: drop-shadow(8px 10px 5px #8fd95b);
+  }
+
+  60% {
+    color: #e1c153;
+    filter: drop-shadow(8px 10px 5px #e1c153);
+  }
+
+  100% {
+    color: #56dfe3;
+    filter: drop-shadow(10px 10px 4px #56dfe3);
+  }
+}
+
+.home-content > .career {
+  font-size: 1.8rem;
+  font-family: 'Roboto Mono', monospace;
 }
 
 .icon {
+  color: #67a799;
   font-size: 1.6rem;
   padding: 0.6rem 0.4rem 0.1rem 0.4rem;
   border-radius: 50%;
+  border: #67a799 solid 1px;
   width: 40px;
   height: 40px;
   margin: 8px 0 0 0;
-}
-
-.linkedin,
-.twitter,
-.github,
-.angelist {
-  border: #000 solid 1px;
 }
 
 .linkedin:hover {
