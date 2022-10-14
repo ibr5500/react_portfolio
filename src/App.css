@@ -4,7 +4,6 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  color: #fffbfb;
   background-image: url('https://images.pexels.com/photos/3473569/pexels-photo-3473569.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
   background-repeat: no-repeat;
   background-position: center;
@@ -31,6 +30,7 @@ body {
 
 .home-content {
   padding: 0.5rem 1rem;
+  color: #fffbfb;
 }
 
 .home-content > .greeting {
@@ -41,7 +41,6 @@ body {
 .home-content > .name {
   font-style: italic;
   font-size: 3rem;
-  color: #fffbfb;
   animation-name: anime;
   animation-duration: 60s;
   animation-iteration-count: infinite;
@@ -80,7 +79,8 @@ body {
 }
 
 .icon {
-  color: #67a799;
+  opacity: 0.55;
+  cursor: pointer;
   font-size: 1.6rem;
   padding: 0.6rem 0.4rem 0.1rem 0.4rem;
   border-radius: 50%;
@@ -90,26 +90,35 @@ body {
   margin: 8px 0 0 0;
 }
 
+.icon > a {
+  text-decoration: none;
+  color: #fffbfb;
+}
+
 .linkedin:hover {
+  opacity: 1;
   border: #fffbfb solid 1px;
   background-color: #0b66c3;
   color: #fffbfb;
 }
 
 .twitter:hover {
+  opacity: 1;
   border: #fffbfb solid 1px;
   background-color: #1da1f2;
   color: #fffbfb;
 }
 
 .github:hover {
+  opacity: 1;
   border: #fffbfb solid 1px;
   background-color: #3f3f3f;
   color: #fffbfb;
 }
 
 .angelist:hover {
-  border: #000 solid 1px;
-  background-color: #fffbfb;
-  color: #000;
+  opacity: 1;
+  border: #fffbfb solid 1px;
+  background-color: #000;
+  color: #fffbfb;
 }

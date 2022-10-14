@@ -6,16 +6,24 @@ import { SiAngellist } from 'react-icons/si';
 const Side = () => (
   <div className="icons-container">
     <div className="icon linkedin">
-      <ImLinkedin2 />
+      <a href="https://www.linkedin.com/in/ibrahim-ahmat/" target="_blank" rel="noreferrer">
+        <ImLinkedin2 />
+      </a>
     </div>
     <div className="icon twitter">
-      <VscTwitter />
+      <a href="https://twitter.com/ibr_ahmat" target="_blank" rel="noreferrer">
+        <VscTwitter />
+      </a>
     </div>
     <div className="icon angelist">
-      <SiAngellist />
+      <a href="https://angel.co/u/ibrahim-ahmat" target="_blank" rel="noreferrer">
+        <SiAngellist />
+      </a>
     </div>
     <div className="icon github">
-      <VscGithubAlt />
+      <a href="https://github.com/ibr5500" target="_blank" rel="noreferrer">
+        <VscGithubAlt />
+      </a>
     </div>
   </div>
 );
