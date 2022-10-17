@@ -4,6 +4,10 @@ const Navbar = () => (
   <nav className="nav">
     <ul className="nav-list">
       <li className="nav-item">
+        Home
+        {/* <a className="nav-link">Home</a> */}
+      </li>
+      <li className="nav-item">
         About
         {/* <a className="nav-link">About</a> */}
       </li>
