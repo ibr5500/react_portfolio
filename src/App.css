@@ -14,7 +14,8 @@
 .nav-list {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
 }
 
 .nav-item {
@@ -25,6 +26,19 @@
   list-style: none;
 }
 
+.navbar-link {
+  display: block;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  color: #67a799;
+}
+
+.navbar-link:hover {
+  color: #67a799;
+  transform: scale(1.2, 1.2);
+  filter: drop-shadow(0 10px 6px #bdeae0);
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -32,29 +46,23 @@ body {
   background-image: url('https://images.pexels.com/photos/3473569/pexels-photo-3473569.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
-}
-
-.App {
-  width: 80%;
-  margin: 0 auto;
+  /*background-size: cover;*/
 }
 
 .home-container {
   display: flex;
   flex-direction: row;
   margin: 10% auto;
-  width: 55%;
+  width: 40%;
 }
 
 .icons-container {
   text-align: center;
-  padding: 0.2rem 0;
-  justify-content: end;
+  /*justify-content: end;*/
 }
 
 .home-content {
-  padding: 0.5rem 1rem;
+  padding: 2.5rem;
   color: #fffbfb;
 }
 
@@ -103,17 +111,20 @@ body {
   font-family: 'Roboto Mono', monospace;
 }
 
+.home-content > h6 {
+  color: #9bc0b8;
+}
+
 .icon {
   opacity: 0.55;
   cursor: pointer;
   font-size: 1.6rem;
-  padding: 0.6rem 0.4rem 0.1rem 0.4rem;
   border-radius: 50%;
   border: #67a799 solid 1px;
   background-color: rgba(105, 103, 115, 0.3);
-  width: 40px;
-  height: 40px;
-  margin: 8px 0 0 0;
+  width: 45px;
+  height: 45px;
+  margin: 6px 0 0 0;
 }
 
 .icon > a {
@@ -147,4 +158,19 @@ body {
   border: #fffbfb solid 1px;
   background-color: #000;
   color: #fffbfb;
+}
+
+.medium:hover {
+  opacity: 1;
+  color: #000;
+  background-color: #fffbfb;
+  border: #000 solid 1px;
+}
+
+.medium:hover >a {
+  color: #000;
+}
+
+.about {
+  color: #fff;
 }
