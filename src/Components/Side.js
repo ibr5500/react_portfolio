@@ -2,6 +2,7 @@ import React from 'react';
 import { VscGithubAlt, VscTwitter } from 'react-icons/vsc';
 import { ImLinkedin2 } from 'react-icons/im';
 import { SiAngellist } from 'react-icons/si';
+import { AiOutlineMedium } from 'react-icons/ai';
 
 const Side = () => (
   <div className="icons-container">
@@ -23,6 +24,11 @@ const Side = () => (
     <div className="icon github">
       <a href="https://github.com/ibr5500" target="_blank" rel="noreferrer">
         <VscGithubAlt />
+      </a>
+    </div>
+    <div className="icon medium">
+      <a href="https://medium.com/@ibr.s.ahmat" target="_blank" rel="noreferrer">
+        <AiOutlineMedium />
       </a>
     </div>
   </div>
