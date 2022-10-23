@@ -1,5 +1,5 @@
 import React from 'react';
-import Side from './Side';
+import Side from './Side.js';
 
 const Home = () => (
   <div className="home-container">
