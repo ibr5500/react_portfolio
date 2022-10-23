@@ -46,7 +46,8 @@ body {
   background-image: url('https://images.pexels.com/photos/3473569/pexels-photo-3473569.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
   background-repeat: no-repeat;
   background-position: center;
-  /*background-size: cover;*/
+
+  /* background-size: cover; */
 }
 
 .home-container {
@@ -58,7 +59,8 @@ body {
 
 .icons-container {
   text-align: center;
-  /*justify-content: end;*/
+
+  /* justify-content: end; */
 }
 
 .home-content {
@@ -167,7 +169,7 @@ body {
   border: #000 solid 1px;
 }
 
-.medium:hover >a {
+.medium:hover > a {
   color: #000;
 }
 
