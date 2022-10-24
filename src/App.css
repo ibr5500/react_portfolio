@@ -3,12 +3,33 @@
 .nav {
   position: -webkit-sticky;
   position: sticky;
+  z-index: 10;
   top: 0;
   padding: 0.2rem 0;
-  width: auto;
+  width: 100%;
   color: #67a799;
   border-bottom: 0.1px solid #67a799;
-  background-color: rgba(105, 103, 115, 0.3);
+  background-color: rgba(103, 167, 153, 0.2);
+}
+
+.logo-img {
+  width: 50px;
+  height: 50px;
+}
+
+.logo-img:hover {
+  animation-name: spin;
+  animation-duration: 3s;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 .nav-list {
@@ -19,7 +40,7 @@
 }
 
 .nav-item {
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   font-weight: 600;
   font-family: monospace;
   margin: 0 25px;
@@ -31,6 +52,10 @@
   padding: 0.5rem 1rem;
   text-decoration: none;
   color: #67a799;
+}
+
+a {
+  margin: -1px 0;
 }
 
 .navbar-link:hover {
@@ -46,6 +71,7 @@ body {
   background-image: url('https://images.pexels.com/photos/3473569/pexels-photo-3473569.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
   background-repeat: no-repeat;
   background-position: center;
+  background-size: cover;
 }
 
 .home-container {
@@ -170,5 +196,44 @@ body {
 }
 
 .about {
-  color: #fff;
+  color: #fffbfb;
+  margin: auto;
+  width: auto;
+}
+
+.recommendation {
+  width: 40%;
+  height: auto;
+  margin: 2rem 3rem 2rem 0;
+}
+
+.slider-container {
+  height: 390px;
+
+  /* border: 2px solid  #67a799; */
+  border-radius: 20px;
+  padding: 1rem 1.5rem;
+  margin: auto 0;
+
+  /* background-color: rgba(103, 167, 153, 0.3); */
+}
+
+.letter {
+  width: auto;
+  height: 350px;
+  margin: 0 auto;
+}
+
+.recomend-img {
+  width: 75px;
+  height: 75px;
+}
+
+.reco-letter {
+  font-size: 1.1rem;
+}
+
+.slider-control-centerright,
+.slider-control-centerleft {
+  display: none;
 }
