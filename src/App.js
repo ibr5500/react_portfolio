@@ -1,8 +1,8 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './App.css';
-import About from './Components/About';
-import Home from './Components/Home'; // eslint-disable-line
-import Navbar from './Components/Navbar';
+import About from './components/About';
+import Home from './components/Home'; // eslint-disable-line
+import Navbar from './components/Navbar';
 
 function App() {
   return (

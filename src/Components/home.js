@@ -8,7 +8,8 @@ const Home = () => (
       <p className="greeting">Hello, I&#39;m</p>
       <h1 className="name">Ibrahim Ahmat</h1>
       <h3 className="career">software developer</h3>
-      <h6>&#34; full stack developer &#34;</h6>
+      <h5>&#34;Full stack developer&#34;</h5>
+      <p>frontend (React), backend (Ruby on Rails)</p>
     </div>
   </div>
 );
