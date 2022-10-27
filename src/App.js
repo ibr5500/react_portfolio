@@ -1,11 +1,12 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './App.css';
-import About from './components/About';
+// eslint-disable
+import About from './components/About'; 
 import Contact from './components/Contact';
-import Home from './components/Home'; // eslint-disable-line
+import Home from './components/Home';
 import Navbar from './components/Navbar';
 import Works from './components/Works';
-
+// eslint-enable
 function App() {
   return (
     <BrowserRouter>
