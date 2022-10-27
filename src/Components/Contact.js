@@ -17,12 +17,12 @@ const Contact = () => {
         method: 'POST',
         body: JSON.stringify({ data }),
         headers: { 'Content-Type': 'application/json' },
-      }).then((res) => res.json()).catch((error) => console.log(error));
+      }).then((res) => res.json()).catch((error) => console.log(error)); // eslint-disable-line
     }
 
     const capitalize = ([first = '', ...rest]) => [first.toUpperCase(), ...rest].join('');
 
-    alert(`Your message sent succsufully, Thank you ${capitalize(data.fname)} !!`);
+    alert(`Your message sent succsufully, Thank you ${capitalize(data.fname)} !!`); // eslint-disable-line
 
     setTimeout(() => {
       navigate('/');
