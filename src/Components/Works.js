@@ -45,15 +45,15 @@ const Works = () => (
                 ))}
               </ul>
               <div className="card-btns justify-content-between d-flex flex-row mt-2 mb-5">
-                <a href={project.sourceLink} className="btn btn-bg p-2">
-                  source
-                  {' '}
-                  <VscSourceControl />
-                </a>
                 <a href={project.liveLink} className="btn btn-bg p-2">
                   live
                   {' '}
                   <GiMeshNetwork />
+                </a>
+                <a href={project.sourceLink} className="btn btn-bg p-2">
+                  source
+                  {' '}
+                  <VscSourceControl />
                 </a>
               </div>
             </div>
