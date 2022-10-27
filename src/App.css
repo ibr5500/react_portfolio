@@ -414,7 +414,8 @@ body {
   margin: 0 auto;
 }
 
-.form > h2 {
+.form > h2,
+.form-btn-err {
   color: #e1c153;
 }
 
@@ -425,11 +426,7 @@ body {
 }
 
 .form-btn {
-  background: #67a799;
-}
-
-.form-btn-err {
-  background: #e15757;
+  background: #58bb7a;
 }
 
 .form-icon {
