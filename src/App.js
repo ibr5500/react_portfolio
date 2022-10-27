@@ -11,6 +11,7 @@ function App() {
     <BrowserRouter>
       <Navbar />
       <Routes>
+        <Route path="/reload" component={null} key="reload" />
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
