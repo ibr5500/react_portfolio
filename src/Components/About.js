@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import Carousel from 'nuka-carousel';
 import { RiSingleQuotesR, RiSingleQuotesL } from 'react-icons/ri';
 import {
@@ -51,7 +51,7 @@ const About = () => {
             If you like what you see and have a project you need coding for,
             don’t hesitate to
             {' '}
-            <Link to="/contact" className="contact-link text-decoration-none">CONTANT ME</Link>
+            <NavLink to="/contact" className="contact-link text-decoration-none">CONTANT ME</NavLink>
             , or review my
             {' '}
             <a href="https://drive.google.com/file/d/1Q-YwP0mRhtHhgUNL7PFHNiFmKr-JrT2I/view?usp=sharing" className="resume text-decoration-none">RESUME</a>
