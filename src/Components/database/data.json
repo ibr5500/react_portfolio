@@ -1,0 +1,128 @@
+{ 
+  "data": {
+    "developer": "Ibrahim Ahmat",
+    "devImage": "./assets/photo.png",
+    "occupation": "Full-Stack developer",
+    "recomendations" : [
+      {
+        "id": 1,
+        "name": "Mohamed Achraf KHITER",
+        "occupation": "Associate Web developer",
+        "recommend": "Ibrahim Ahmat is one of the best among all the people I have ever worked with. As I remember, he was a very productive person, is hardworking, broad-minded, and forward-thinking individual. Intelligent, ambitious, energetic, and proactive perfectionist. His desire for proficiency and education makes him a valuable asset to the team. Working with Ibrahim Ahmat is a signature of success.",
+        "img": "./assets/achraf.png"
+      },
+      {
+        "id": 2,
+        "name": "Rwubakwanayo Olivier",
+        "occupation": "Full-Stack Web developer",
+        "recommend": "Ibrahim is one of the most valuable people I have ever met. Both team player and professional. Experienced, deadline-oriented, and intelligent person. Highly recommended.",
+        "img": "./assets/olivier.png"
+      },
+      {
+        "id": 3,
+        "name": "Hammad Siddique",
+        "occupation": "Software developer",
+        "recommend": "I worked with Ibrahim during my time at Microverse, we created a capstone project together. It was nice working with Ibrahim, along with good technical skills, he had amazing professional skills as well. He was punctual in the meetings and communicative. He informed me about his project updates timely and because of that we were able to complete our project in time.",
+        "img": "./assets/hammad.png"
+      },
+      {
+        "id": 4,
+        "name": "Eric Mahare",
+        "occupation": "Software developer",
+        "recommend": "Ibrahim is one of the most amazing people to work with. His technical skills are really great and he is always there to assist whenever need arises. He is polite, a team player and a great programmer too. Any team will really benefit from his skills.",
+        "img": "./assets/eric.png"
+      },
+      {
+        "id": 5,
+        "name": "Toussaint Saraza",
+        "occupation": "Software developer",
+        "recommend": "I have worked with Ibrahim in the same team for months and It was a great experience. He's a good teammate, and always looking for clean code. I Will love to work with him again.",
+        "img": "./assets/saraza.png"
+      },
+      {
+        "id": 6,
+        "name": "Mohammed Mahdi",
+        "occupation": "Full-Stack developer & Mentor",
+        "recommend": "Ibrahim is a Great fast learner student that I had the chance to mentor, His out-of-the-box thinking and his problem-solving skills always impressed me.",
+        "img": "./assets/mehdi.png"
+      }
+    ],
+    "projects" : [
+      {
+        "id": 1,
+        "name": "We Fly Digital",
+        "image": "./assets/fly-digital.png",
+        "spans": [
+          { "id": 1, "span": "Microverse"},
+          {"id": 2, "span": "full stack dev"},
+          {"id": 3, "span": "October-2022"}
+        ],
+        "tools": [
+          { "id": 1, "lang" :"Ruby on Rails" },
+          { "id": 2, "lang": "React" },
+          {"id": 3, "lang": "Redux" },
+          { "id": 4, "lang" :"Bootstrap" },
+          { "id": 5, "lang": "Devise" },
+          {"id": 6, "lang": "API" }
+        ],
+        "description": "We Fly Digital (full stack web): is a flight reservation app that allows the user to book a flight from and to anywhere. Built as a group.",
+        "sourceLink": "",
+        "liveLink": ""
+      },
+      {
+        "id": 2,
+        "name": "project name",
+        "image": "./assets/budget.png",
+        "spans": [
+          { "id": 1, "span": "Microverse"},
+          {"id": 2, "span": "full stack dev"},
+          {"id": 3, "span": "October-2022"}
+        ],
+        "tools": [
+          { "id": 1, "lang" :"HTML" },
+          { "id": 2, "lang": "CSS" },
+          {"id": 3, "lang": "JavaScript" }
+        ],
+        "description": "Some quick example text to build on the card title.2",
+        "sourceLink": "",
+        "liveLink": ""
+      },
+      {
+        "id": 3,
+        "name": "project name",
+        "image": "./assets/fodify.png",
+        "spans": [
+          { "id": 1, "span": "Microverse"},
+          {"id": 2, "span": "full stack dev"},
+          {"id": 3, "span": "October-2022"}
+        ],
+        "tools": [
+          { "id": 1, "lang" :"HTML" },
+          { "id": 2, "lang": "CSS" },
+          {"id": 3, "lang": "JavaScript" }
+        ],
+        "description": "Some quick example text to build on the card title.3",
+        "sourceLink": "",
+        "liveLink": ""
+      },
+      {
+        "id": 4,
+        "name": "project name",
+        "image": "./assets/fodify.png",
+        "spans": [
+          { "id": 1, "span": "Microverse"},
+          {"id": 2, "span": "full stack dev"},
+          {"id": 3, "span": "October-2022"}
+        ],
+        "tools": [
+          { "id": 1, "lang" :"HTML" },
+          { "id": 2, "lang": "CSS" },
+          {"id": 3, "lang": "JavaScript" }
+        ],
+        "description": "Some quick example text to build on the card title.4",
+        "sourceLink": "",
+        "liveLink": ""
+      }
+    ]
+  }
+}
