@@ -46,6 +46,83 @@
         "recommend": "Ibrahim is a Great fast learner student that I had the chance to mentor, His out-of-the-box thinking and his problem-solving skills always impressed me.",
         "img": "./assets/mehdi.png"
       }
+    ],
+    "projects" : [
+      {
+        "id": 1,
+        "name": "We Fly Digital",
+        "image": "./assets/fly-digital.png",
+        "spans": [
+          { "id": 1, "span": "Microverse"},
+          {"id": 2, "span": "full stack dev"},
+          {"id": 3, "span": "October-2022"}
+        ],
+        "tools": [
+          { "id": 1, "lang" :"Ruby on Rails" },
+          { "id": 2, "lang": "React" },
+          {"id": 3, "lang": "Redux" },
+          { "id": 4, "lang" :"Bootstrap" },
+          { "id": 5, "lang": "Devise" },
+          {"id": 6, "lang": "API" }
+        ],
+        "description": "We Fly Digital (full stack web): is a flight reservation app that allows the user to book a flight from and to anywhere. Built as a group.",
+        "sourceLink": "",
+        "liveLink": ""
+      },
+      {
+        "id": 2,
+        "name": "project name",
+        "image": "./assets/budget.png",
+        "spans": [
+          { "id": 1, "span": "Microverse"},
+          {"id": 2, "span": "full stack dev"},
+          {"id": 3, "span": "October-2022"}
+        ],
+        "tools": [
+          { "id": 1, "lang" :"HTML" },
+          { "id": 2, "lang": "CSS" },
+          {"id": 3, "lang": "JavaScript" }
+        ],
+        "description": "Some quick example text to build on the card title.2",
+        "sourceLink": "",
+        "liveLink": ""
+      },
+      {
+        "id": 3,
+        "name": "project name",
+        "image": "./assets/fodify.png",
+        "spans": [
+          { "id": 1, "span": "Microverse"},
+          {"id": 2, "span": "full stack dev"},
+          {"id": 3, "span": "October-2022"}
+        ],
+        "tools": [
+          { "id": 1, "lang" :"HTML" },
+          { "id": 2, "lang": "CSS" },
+          {"id": 3, "lang": "JavaScript" }
+        ],
+        "description": "Some quick example text to build on the card title.3",
+        "sourceLink": "",
+        "liveLink": ""
+      },
+      {
+        "id": 4,
+        "name": "project name",
+        "image": "./assets/fodify.png",
+        "spans": [
+          { "id": 1, "span": "Microverse"},
+          {"id": 2, "span": "full stack dev"},
+          {"id": 3, "span": "October-2022"}
+        ],
+        "tools": [
+          { "id": 1, "lang" :"HTML" },
+          { "id": 2, "lang": "CSS" },
+          {"id": 3, "lang": "JavaScript" }
+        ],
+        "description": "Some quick example text to build on the card title.4",
+        "sourceLink": "",
+        "liveLink": ""
+      }
     ]
   }
 }
