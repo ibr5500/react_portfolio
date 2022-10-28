@@ -16,7 +16,7 @@ const Works = () => (
         cellSpacing={50}
         pauseOnHover="true"
         slidesToShow={1}
-        // autoplay="true"
+        autoplay="true"
         autoplayInterval={5000}
         defaultControlsConfig={{
           nextButtonText: <FaArrowCircleRight className="arrow" />,
