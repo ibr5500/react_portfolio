@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { BsFillEmojiSmileFill, BsFillEmojiNeutralFill } from 'react-icons/bs';
+import { BsFillEmojiSmileFill } from 'react-icons/bs';
+import { FaSmileBeam } from 'react-icons/fa';
 
 const Contact = () => {
   const navigate = useNavigate();
@@ -38,7 +39,9 @@ const Contact = () => {
   return (
     <section className="contact-container text-center">
       <form onSubmit={handelSubmit} className=" form gap-3 d-flex flex-column" action="https://formspree.io/f/mqknlobw " method="post">
-        <h2>Get in Touch</h2>
+        <h2>
+          Get in Touch
+        </h2>
         <div className="col-auto">
           <label htmlFor="fname" className="visually-idden d-flex flex-row">
             <input
@@ -89,7 +92,7 @@ const Contact = () => {
             Send
             {' '}
             {(data.fname && data.email && data.message)
-              ? <BsFillEmojiSmileFill className="form-icon" /> : <BsFillEmojiNeutralFill className="form-icon" />}
+              ? <FaSmileBeam className="form-icon" /> : <BsFillEmojiSmileFill className="form-icon" />}
           </button>
         </div>
       </form>

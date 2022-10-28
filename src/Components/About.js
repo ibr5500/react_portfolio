@@ -8,11 +8,10 @@ import {
 import {
   SiWebpack, SiRedux, SiJest, SiRubyonrails, SiPostgresql, SiMysql,
 } from 'react-icons/si';
-import { VscGithubAlt } from 'react-icons/vsc';
 import { DiRuby } from 'react-icons/di';
-import { ImLinkedin2 } from 'react-icons/im';
 import { BsFillBootstrapFill } from 'react-icons/bs';
 import data from './database/data.json';
+import Side from './Side';
 
 const About = () => {
   const listSkills = [
@@ -54,25 +53,17 @@ const About = () => {
             <NavLink to="/contact" className="contact-link text-decoration-none">CONTACT ME</NavLink>
             , or review my
             {' '}
-            <a href="https://drive.google.com/file/d/1Q-YwP0mRhtHhgUNL7PFHNiFmKr-JrT2I/view?usp=sharing" className="resume text-decoration-none">RESUME</a>
-            , GitHub
-            <span className="github-about">
-              <a href="https://github.com/ibr5500" target="_blank" rel="noreferrer">
-                <VscGithubAlt className="about-icon" />
-              </a>
-            </span>
-            or LinkedIn
-            <span className="linkedin-about">
-              <a href="https://www.linkedin.com/in/ibrahim-ahmat/" target="_blank" rel="noreferrer">
-                <ImLinkedin2 className="about-icon" />
-              </a>
-            </span>
+            <a href="https://docs.google.com/document/d/e/2PACX-1vTNVRXkDbBVs0xw_qTF8A6HDk_ZzXBteA_bTpk2mNPYdl1lfgb5TMp05WfZqbSoXeFH9WCQfXp3RShH/pub" target="_blank" rel="noreferrer" className="resume text-decoration-none">
+              RESUME
+            </a>
             .
           </p>
         </div>
         <div className="skills gap-2">
           {listSkills.map((skill) => (
-            <span key={skill.id} className={skill.name}>{skill.icon}</span>
+            <span key={skill.id} className={skill.name}>
+              {skill.icon}
+            </span>
           ))}
         </div>
       </div>
@@ -115,6 +106,7 @@ const About = () => {
           </Carousel>
         </div>
       </div>
+      <Side className="d-flex flex-row" />
     </div>
   );
 };

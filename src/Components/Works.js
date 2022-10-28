@@ -46,12 +46,12 @@ const Works = () => (
               </ul>
               <div className="d-flex flex-row mt-2 mb-5">
                 <div className="card-btns rounded-pill">
-                  <a href={project.liveLink} className="btn live btn-bg">
+                  <a href={project.liveLink} target="_blank" rel="noreferrer" className="btn live btn-bg">
                     live
                     {' '}
                     <GiMeshNetwork />
                   </a>
-                  <a href={project.sourceLink} className="btn source btn-bg">
+                  <a href={project.sourceLink} target="_blank" rel="noreferrer" className="btn source btn-bg">
                     source
                     {' '}
                     <VscSourceControl />
