@@ -81,7 +81,6 @@ body {
   width: 40%;
 }
 
-
 .icons-container {
   width: auto;
   text-align: center;
@@ -348,11 +347,11 @@ section {
 }
 
 .file-marker > div {
-  /*padding: 0 3px;*/
+  /* padding: 0 3px; */
   height: 100px;
   margin-top: -40px;
-  
 }
+
 .box-title {
   width: -moz-fit-content;
   width: fit-content;
