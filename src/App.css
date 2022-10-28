@@ -243,7 +243,7 @@ body {
   height: 100%;
 }
 
-.slider-container > div {
+.carousel-container > .slider-container > div {
   height: 230px;
 }
 
