@@ -1,11 +1,5 @@
 [[redirects]]
-  from = "/about"
-  to = "/about"
-  status = 200,
-  from = "/projects"
-  to = "/projects"
-  status = 200,
-  from = "/contact"
-  to = "/contact"
-  status = 200
+  from = "/about" to = "/about" status = 200,
+  from = "/projects" to = "/projects" status = 200,
+  from = "/contact" to = "/contact" status = 200
   
