@@ -665,23 +665,32 @@ body {
 }
 
 .card-btns {
-  justify-content: space-between;
-  width: 95%;
-  gap: 180px;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: auto;
+  gap: 5px;
+  border: 1.5px solid #245148;
   margin: 0 auto;
 }
 
 .btn-bg {
   font-weight: 600;
-  height: 40px;
   color: #245148;
-  border: 1.5px solid #245148;
   margin: 0 auto;
 }
 
 .btn-bg:hover {
   color: #fffbfb;
   background: #245148;
+}
+
+.source {
+  border-left: 1.5px solid #245148;
+  border-radius: 0 50rem 50rem 0;
+}
+
+.live {
+  border-radius: 50rem 0 0 50rem;
 }
 
 .about-icon {

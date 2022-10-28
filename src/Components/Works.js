@@ -16,7 +16,7 @@ const Works = () => (
         cellSpacing={50}
         pauseOnHover="true"
         slidesToShow={1}
-        autoplay="true"
+        // autoplay="true"
         autoplayInterval={5000}
         defaultControlsConfig={{
           nextButtonText: <FaArrowCircleRight className="arrow" />,
@@ -44,17 +44,19 @@ const Works = () => (
                   <li key={tool.id} className="list-group p-1 m-1 border">{tool.lang}</li>
                 ))}
               </ul>
-              <div className="card-btns justify-content-between d-flex flex-row mt-2 mb-5">
-                <a href={project.liveLink} className="btn btn-bg p-2">
-                  live
-                  {' '}
-                  <GiMeshNetwork />
-                </a>
-                <a href={project.sourceLink} className="btn btn-bg p-2">
-                  source
-                  {' '}
-                  <VscSourceControl />
-                </a>
+              <div className="d-flex flex-row mt-2 mb-5">
+                <div className="card-btns rounded-pill">
+                  <a href={project.liveLink} className="btn live btn-bg">
+                    live
+                    {' '}
+                    <GiMeshNetwork />
+                  </a>
+                  <a href={project.sourceLink} className="btn source btn-bg">
+                    source
+                    {' '}
+                    <VscSourceControl />
+                  </a>
+                </div>
               </div>
             </div>
           </div>
