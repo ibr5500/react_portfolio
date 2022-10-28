@@ -7,8 +7,8 @@
   top: 0;
   padding: 0.2rem 0;
   width: 100%;
-  border-bottom: 0.1px solid #67a799;
-  background-color: rgba(63, 63, 63, 0.75);
+  border-bottom: 1.5px solid #67a799;
+  background-color: rgba(63, 63, 63, 0.5);
 }
 
 .logo-img {
@@ -81,8 +81,11 @@ body {
   width: 40%;
 }
 
+
 .icons-container {
+  width: auto;
   text-align: center;
+  margin: auto;
 }
 
 .home-content {
@@ -217,12 +220,12 @@ body {
 
 .about {
   color: #fffbfb;
-  margin: auto;
-  width: auto;
+  margin: 1.5rem auto;
+  width: 90%;
 }
 
 .recommendation {
-  width: 81%;
+  width: 90%;
   background-color: rgba(255, 251, 251, 0.6);/* rgba(255, 251, 251, 0.7); */
   color: #3f3f3f;
   margin: 0 auto;
@@ -284,7 +287,7 @@ body {
 }
 
 .about-me {
-  width: 80%;
+  width: 90%;
   height: auto;
   margin: 0 auto;
 }
@@ -333,17 +336,37 @@ body {
   transform: scale(1.2, 1.2);
 }
 
-.skills {
-  display: grid;
-  grid-template-columns: auto auto auto auto auto;
-  width: -moz-fit-content;
-  width: fit-content;
-  font-size: 2rem;
-  text-align: center;
-  margin: 1.5rem 2rem;
+section {
   border: 1px solid #67a799;
   border-radius: 20px;
   padding: 15px;
+  margin: 1.5rem auto;
+  width: -moz-fit-content;
+  width: fit-content;
+  font-size: 1.6rem;
+  text-align: center;
+}
+
+.file-marker > div {
+  /*padding: 0 3px;*/
+  height: 100px;
+  margin-top: -40px;
+  
+}
+.box-title {
+  width: -moz-fit-content;
+  width: fit-content;
+  color: #89cdbe;
+  background: #04151d none repeat scroll 0 0;
+  display: inline-block;
+  padding: 0 2px;
+  margin: 0 8em 0 0;
+}
+
+.skills {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  font-size: 1.8rem;
 }
 
 .git {
@@ -354,12 +377,10 @@ body {
 @keyframes git {
   from {
     color: #fffbfb;
-    transform: scale(1);
   }
 
   to {
     color: #e84d31;
-    transform: scale(1.2);
   }
 }
 
@@ -371,12 +392,10 @@ body {
 @keyframes html {
   from {
     color: #fffbfb;
-    transform: scale(1);
   }
 
   to {
     color: #f75421;
-    transform: scale(1.2);
   }
 }
 
@@ -388,12 +407,10 @@ body {
 @keyframes css {
   from {
     color: #fffbfb;
-    transform: scale(1);
   }
 
   to {
     color: #1f8ee7;
-    transform: scale(1.2);
   }
 }
 
@@ -405,12 +422,10 @@ body {
 @keyframes js {
   from {
     color: #fffbfb;
-    transform: scale(1);
   }
 
   to {
     color: #eeb62b;
-    transform: scale(1.2);
   }
 }
 
@@ -423,12 +438,10 @@ body {
 @keyframes webpack {
   from {
     color: #fffbfb;
-    transform: scale(1);
   }
 
   to {
     color: #1b72b6;
-    transform: scale(1.2);
   }
 }
 
@@ -440,12 +453,10 @@ body {
 @keyframes react {
   from {
     color: #fffbfb;
-    transform: scale(1);
   }
 
   to {
     color: #00cdf2;
-    transform: scale(1.2);
   }
 }
 
@@ -457,12 +468,10 @@ body {
 @keyframes redux {
   from {
     color: #fffbfb;
-    transform: scale(1);
   }
 
   to {
     color: #7853b8;
-    transform: scale(1.2);
   }
 }
 
@@ -474,12 +483,10 @@ body {
 @keyframes bootstrap {
   from {
     color: #fffbfb;
-    transform: scale(1);
   }
 
   to {
     color: #593879;
-    transform: scale(1.2);
   }
 }
 
@@ -491,12 +498,10 @@ body {
 @keyframes jest {
   from {
     color: #fffbfb;
-    transform: scale(1);
   }
 
   to {
     color: #913f56;
-    transform: scale(1.2);
   }
 }
 
@@ -509,12 +514,10 @@ body {
 @keyframes ruby {
   from {
     color: #fffbfb;
-    transform: scale(1);
   }
 
   to {
     color: #a81105;
-    transform: scale(1.2);
   }
 }
 
@@ -528,12 +531,10 @@ body {
 @keyframes rails {
   from {
     color: #fffbfb;
-    transform: scale(1);
   }
 
   to {
     color: #c20000;
-    transform: scale(1.2);
   }
 }
 
@@ -545,12 +546,10 @@ body {
 @keyframes postgresql {
   from {
     color: #fffbfb;
-    transform: scale(1);
   }
 
   to {
     color: #30628a;
-    transform: scale(1.2);
   }
 }
 
@@ -565,12 +564,10 @@ body {
 @keyframes mysql {
   from {
     color: #fffbfb;
-    transform: scale(1);
   }
 
   to {
     color: #7292ac;
-    transform: scale(1.2);
   }
 }
 

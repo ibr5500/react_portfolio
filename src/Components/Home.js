@@ -3,7 +3,9 @@ import Side from './Side'; // eslint-disable-line
 
 const Home = () => (
   <div className="home-container">
-    <Side />
+    <div className="flex-column">
+      <Side />
+    </div>
     <div className="home-content">
       <p className="greeting">Hello, I&#39;m</p>
       <h1 className="name">Ibrahim Ahmat</h1>
