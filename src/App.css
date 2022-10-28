@@ -335,7 +335,7 @@ body {
   transform: scale(1.2, 1.2);
 }
 
-section {
+.file-marker {
   border: 1px solid #67a799;
   border-radius: 20px;
   padding: 15px;
@@ -347,7 +347,6 @@ section {
 }
 
 .file-marker > div {
-  /* padding: 0 3px; */
   height: 100px;
   margin-top: -40px;
 }
