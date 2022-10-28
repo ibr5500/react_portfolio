@@ -61,24 +61,6 @@ const About = () => {
               .
             </p>
           </div>
-          <section className="file-marker">
-            <div>
-              <div className="box-title">
-                skills
-              </div>
-              <div className="skills">
-                {listSkills.map((skill) => (
-                  <div
-                    key={skill.id}
-                    id={skill.id}
-                    className={skill.name}
-                  >
-                    {skill.icon}
-                  </div>
-                ))}
-              </div>
-            </div>
-          </section>
         </div>
         <div className="recommendation">
           <div className="carousel-container">
@@ -120,6 +102,24 @@ const About = () => {
           </div>
         </div>
       </div>
+      <section className="file-marker">
+        <div>
+          <div className="box-title">
+            skills
+          </div>
+          <div className="skills">
+            {listSkills.map((skill) => (
+              <div
+                key={skill.id}
+                id={skill.id}
+                className={skill.name}
+              >
+                {skill.icon}
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
     </div>
   );
 };
