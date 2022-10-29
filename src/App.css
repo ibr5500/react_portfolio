@@ -359,15 +359,12 @@ body {
 .box-title {
   width: -moz-fit-content;
   width: fit-content;
+  height: auto;
   color: #89cdbe;
   background: #04151d none repeat scroll 0 0;
   display: inline-block;
   padding: 0 2px;
-  margin: 0 8em 0 0;
-}
-
-.box-title > div {
-
+  margin: -15px 8em -15px 0;
 }
 
 .skills {
@@ -543,7 +540,7 @@ body {
 
 .rails {
   font-size: 3rem;
-  margin: -17px 0 0 5px;
+  /*margin: -17px 0 0 5px;*/
   animation-name: rails;
   animation-duration: 2.4s, 5s, 1.2s;
 }
@@ -728,6 +725,7 @@ body {
 .collapse-container,
 .collapse {
   width: 100%;
+  color: #67a799;
 }
 
 .drop-btn {
@@ -743,4 +741,12 @@ body {
   color: #000;
   background: #67a799;
   border: 1px solid;
+}
+
+.border-t {
+  border-top: 1px solid #67a799;
+}
+
+.border-b {
+  border-bottom: 1px solid #67a799;
 }
