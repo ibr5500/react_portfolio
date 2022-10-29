@@ -403,7 +403,7 @@ body {
 
 .html {
   animation-name: html;
-  animation-duration: 1.5s, 5s, 1s;
+  animation-duration: 1.4s, 5s, 1s;
 }
 
 @keyframes html {
@@ -418,7 +418,7 @@ body {
 
 .css {
   animation-name: css;
-  animation-duration: 1.6s, 5s, 1s;
+  animation-duration: 1.5s, 5s, 1s;
 }
 
 @keyframes css {
@@ -433,7 +433,7 @@ body {
 
 .javaScript {
   animation-name: javaScript;
-  animation-duration: 1.7s, 5s, 1s;
+  animation-duration: 1.6s, 5s, 1.1s;
 }
 
 @keyframes javaScript {
@@ -448,7 +448,7 @@ body {
 
 .webpack {
   animation-name: webpack;
-  animation-duration: 1.8s, 5s, 1s;
+  animation-duration: 1.5s, 5s, 1s;
   padding-left: 5px;
 }
 
@@ -464,7 +464,7 @@ body {
 
 .react {
   animation-name: react;
-  animation-duration: 1.9s, 5s, 1.1s;
+  animation-duration: 1.6s, 5s, 1.1s;
 }
 
 @keyframes react {
@@ -479,7 +479,7 @@ body {
 
 .redux {
   animation-name: redux;
-  animation-duration: 2s, 5s, 1.1s;
+  animation-duration: 1.7s, 5s, 1.1s;
 }
 
 @keyframes redux {
@@ -494,7 +494,7 @@ body {
 
 .bootStrap {
   animation-name: bootstrap;
-  animation-duration: 2.1s, 5s, 1.1s;
+  animation-duration: 1.8s, 5s, 1.2s;
 }
 
 @keyframes bootstrap {
@@ -509,7 +509,7 @@ body {
 
 .jest {
   animation-name: jest;
-  animation-duration: 2.2s, 5s, 1.1s;
+  animation-duration: 1.9s, 5s, 1.2s;
 }
 
 @keyframes jest {
@@ -525,7 +525,7 @@ body {
 .ruby {
   padding-left: 5px;
   animation-name: ruby;
-  animation-duration: 2.3s, 5s, 1.1s;
+  animation-duration: 1.7s, 5s, 1.1s;
 }
 
 @keyframes ruby {
@@ -540,9 +540,8 @@ body {
 
 .rails {
   font-size: 3rem;
-  /*margin: -17px 0 0 5px;*/
   animation-name: rails;
-  animation-duration: 2.4s, 5s, 1.2s;
+  animation-duration: 2s, 5s, 1.3s;
 }
 
 @keyframes rails {
@@ -557,7 +556,7 @@ body {
 
 .postgresql {
   animation-name: postgresql;
-  animation-duration: 2.5s, 5s, 1.2s;
+  animation-duration: 2.1s, 5s, 1.3s;
 }
 
 @keyframes postgresql {
@@ -576,7 +575,7 @@ body {
   margin: -17px 0 0 5px;
   align-items: end;
   animation-name: redux;
-  animation-duration: 2.6s, 5s, 1.2s;
+  animation-duration: 2.2s, 5s, 1.4s;
 }
 
 .mysql > span {
