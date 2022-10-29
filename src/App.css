@@ -6,7 +6,7 @@
   z-index: 10;
   top: 0;
   padding: 0.2rem 0;
-  width: 100%;
+  width: auto;
   border-bottom: 1.5px solid #67a799;
   background-color: rgba(63, 63, 63, 0.5);
 }
@@ -344,16 +344,17 @@ body {
   border: 1px solid #67a799;
   border-radius: 20px;
   padding: 15px;
-  margin: 1.5rem auto;
+  margin: 4rem auto 1rem auto;
   width: -moz-fit-content;
   width: fit-content;
+  height: 50%;
   font-size: 1.6rem;
   text-align: center;
 }
 
 .file-marker > div {
-  height: 100px;
   margin-top: -40px;
+  width: auto;
 }
 
 .box-title {
@@ -367,9 +368,22 @@ body {
 }
 
 .skills {
-  display: grid;
-  grid-template-columns: auto auto auto auto auto;
   font-size: 1.8rem;
+  width: auto;
+  text-align: start;
+}
+
+.skills-list {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.skills-list > div > span {
+  font-size: 1.1rem;
+}
+
+.skills-list > div > span::first-letter {
+  text-transform:capitalize;
 }
 
 .git {
@@ -587,6 +601,10 @@ body {
 .rails,
 .postgresql,
 .mysql {
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  gap: 2px;
   animation-iteration-count: infinite;
   animation-direction: alternate;
 }
@@ -696,4 +714,24 @@ body {
 .about-icon {
   font-size: 1.2rem;
   margin: 0 2px 7px 2px;
+}
+
+.collapse-container,
+.collapse {
+  width: 100%;
+}
+
+.drop-btn {
+  color: #67a799;
+  background: none;
+  border: 1px solid #67a799;
+  border-radius: 20%;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+.drop-btn:hover {
+  color: #000;
+  background: #67a799;
+  border: 1px solid;
 }
