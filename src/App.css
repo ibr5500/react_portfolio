@@ -234,6 +234,11 @@ body {
   padding: 5px;
 }
 
+.file-marker > div {
+  margin-top: -40px;
+  width: auto;
+}
+
 .carousel-container {
   height: 185px;
   margin: 0 auto;
@@ -351,11 +356,6 @@ body {
   text-align: center;
 }
 
-.file-marker > div {
-  margin-top: -40px;
-  width: auto;
-}
-
 .box-title {
   width: -moz-fit-content;
   width: fit-content;
@@ -376,6 +376,10 @@ body {
 .skills-list {
   display: grid;
   grid-template-columns: auto auto;
+}
+
+.mysql > span {
+  padding: 10px 0 0 0;
 }
 
 .pro-skills-list {
@@ -583,10 +587,6 @@ body {
   animation-duration: 2.2s, 5s, 1.4s;
 }
 
-.mysql > span {
-  padding: 10px 0 0 0;
-}
-
 @keyframes mysql {
   from {
     color: #fffbfb;
@@ -618,7 +618,7 @@ body {
   }
 
   to {
-    color: none;
+    color: #67a799;
   }
 }
 
