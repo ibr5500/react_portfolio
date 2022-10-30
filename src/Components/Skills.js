@@ -7,7 +7,6 @@ import {
 } from 'react-icons/si';
 import { DiRuby } from 'react-icons/di';
 import { BsFillBootstrapFill } from 'react-icons/bs';
-import { TiGroup } from "react-icons/ti";
 
 const Skills = () => {
   const langs = [
@@ -30,9 +29,15 @@ const Skills = () => {
   ];
 
   const profs = [
-    { id: 1, name: 'Team Work', icon: <TiGroup /> },
-    { id: 2, name: 'webpack', icon: <SiWebpack /> },
-    { id: 3, name: 'react', icon: <FaReact /> },
+    {
+      id: 1, cls: 'team', name: 'Team Work', icon: <i className="fa-solid fa-users-gear" />,
+    },
+    {
+      id: 2, cls: 'pair', name: 'Pair Programming', icon: <i className="fa-solid fa-user-group" />,
+    },
+    {
+      id: 3, cls: 'remote', name: 'Remote Work', icon: <i className="fa-solid fa-house-laptop" />,
+    },
   ];
 
   return (
@@ -48,7 +53,7 @@ const Skills = () => {
                 Languages
                 <FaAngleDown />
               </a>
-              <div className="">
+              <div>
                 <div className="collapse multi-collapse" id="collapseExample">
                   <div className="skills-list gap-2 p-2 text-left border-b">
                     {langs.map((skill) => (
@@ -67,7 +72,7 @@ const Skills = () => {
                 Frameworks & tools
                 <FaAngleDown />
               </a>
-              <div className="">
+              <div>
                 <div className="collapse multi-collapse" id="collapseExample2">
                   <div className="skills-list gap-2 p-2 text-left border-b">
                     {frams.map((skill) => (
@@ -86,10 +91,18 @@ const Skills = () => {
                 Professional Skills
                 <FaAngleDown />
               </a>
-              <div className="">
-                <div className="border-t collapse multi-collapse" id="collapseExample3">
-                  <div>
-                    skills
+              <div>
+                <div className="collapse multi-collapse" id="collapseExample3">
+                  <div className="pro-skills-list gap-2 p-2 text-left border-t">
+                    {profs.map((skill) => (
+                      <div
+                        key={skill.id}
+                        className={skill.cls}
+                      >
+                        {skill.icon}
+                        <span className="px-2">{skill.name}</span>
+                      </div>
+                    ))}
                   </div>
                 </div>
               </div>
