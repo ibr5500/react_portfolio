@@ -7,6 +7,7 @@ import {
 } from 'react-icons/si';
 import { DiRuby } from 'react-icons/di';
 import { BsFillBootstrapFill } from 'react-icons/bs';
+import { TiGroup } from "react-icons/ti";
 
 const Skills = () => {
   const langs = [
@@ -28,7 +29,11 @@ const Skills = () => {
     { id: 9, name: 'mysql', icon: <SiMysql /> },
   ];
 
-  // const profs = [];
+  const profs = [
+    { id: 1, name: 'Team Work', icon: <TiGroup /> },
+    { id: 2, name: 'webpack', icon: <SiWebpack /> },
+    { id: 3, name: 'react', icon: <FaReact /> },
+  ];
 
   return (
     <section className="file-marker">
