@@ -30,7 +30,7 @@ const Skills = () => {
 
   const profs = [
     {
-      id: 1, cls: 'team', name: 'Team Work', icon: <i className="fa-solid fa-users-gear" />,
+      id: 1, cls: 'team', name: 'Teamwork', icon: <i className="fa-solid fa-users-gear" />,
     },
     {
       id: 2, cls: 'pair', name: 'Pair Programming', icon: <i className="fa-solid fa-user-group" />,
