@@ -53,17 +53,17 @@
         "name": "We Fly Digital",
         "image": "./assets/fly-digital.png",
         "spans": [
-          { "id": 1, "span": "Microverse"},
-          {"id": 2, "span": "full stack dev"},
-          {"id": 3, "span": "October-2022"}
+          { "id": 1, "span": "Microverse" },
+          { "id": 2, "span": "full stack dev" },
+          { "id": 3, "span": "October-2022" }
         ],
         "tools": [
           { "id": 1, "lang" :"Ruby on Rails" },
           { "id": 2, "lang": "React" },
-          {"id": 3, "lang": "Redux" },
+          { "id": 3, "lang": "Redux" },
           { "id": 4, "lang" :"Bootstrap" },
           { "id": 5, "lang": "Devise" },
-          {"id": 6, "lang": "API" }
+          { "id": 6, "lang": "API" }
         ],
         "description": "We Fly Digital (full stack web): is a flight reservation app that allows the user to book a flight from and to anywhere. Built as a group.",
         "sourceLink": "https://github.com/ibr5500/flight_reservation-frontend",
@@ -74,16 +74,16 @@
         "name": "EgIvy App",
         "image": "./assets/budget.png",
         "spans": [
-          { "id": 1, "span": "Microverse"},
-          {"id": 2, "span": "full stack dev"},
-          {"id": 3, "span": "October-2022"}
+          { "id": 1, "span": "Microverse" },
+          { "id": 2, "span": "full stack dev" },
+          { "id": 3, "span": "September-2022" }
         ],
         "tools": [
-          { "id": 1, "lang" :"JavaScript"},
-          { "id": 2, "lang": "bootstrap"},
-          {"id": 3, "lang": "Ruby on Rails"},
-          {"id": 4, "lang": "RSpec"},
-          {"id": 5, "lang": "Devise"}
+          { "id": 1, "lang" :"JavaScript" },
+          { "id": 2, "lang": "bootstrap" },
+          { "id": 3, "lang": "Ruby on Rails" },
+          { "id": 4, "lang": "RSpec" },
+          { "id": 5, "lang": "Devise" }
         ],
         "description": "EgIvy App: is a web application where you can manage your budget, you have a list of transactions associated with a category, so that you can see how much money you spent and on what, built as a solo.",
         "sourceLink": "https://github.com/ibr5500/Budget_App",
@@ -94,17 +94,17 @@
         "name": "Disney World",
         "image": "./assets/disney.png",
         "spans": [
-          { "id": 1, "span": "Microverse"},
-          {"id": 2, "span": "front end dev"},
-          {"id": 3, "span": "October-2022"}
+          { "id": 1, "span": "Microverse" },
+          { "id": 2, "span": "front end dev" },
+          { "id": 3, "span": "July-2022" }
         ],
         "tools": [
           { "id": 1, "lang" :"React" },
           { "id": 2, "lang": "Redux" },
-          {"id": 3, "lang": "CSS" },
-          {"id": 4, "lang": "Jest"},
-          {"id": 5, "lang": "Disney-API"},
-          {"id": 6, "lang": "Netlify"}
+          { "id": 3, "lang": "CSS" },
+          { "id": 4, "lang": "Jest" },
+          { "id": 5, "lang": "Disney-API" },
+          { "id": 6, "lang": "Netlify" }
         ],
         "description": "Disney World: is a Metric data app about Disney characters, using Disney API, displays their names, images, movies, and Tv Shows, built as a solo.",
         "sourceLink": "https://github.com/ibr5500/Disney-world",
@@ -112,19 +112,78 @@
       },
       {
         "id": 4,
+        "name": "Space Traveler's Hub",
+        "image": "./assets/space.png",
+        "spans": [
+          { "id": 1, "span": "Microverse" },
+          { "id": 2, "span": "front end dev" },
+          { "id": 3, "span": "June-2022" }
+        ],
+        "tools": [
+          { "id": 1, "lang" :"React" },
+          { "id": 2, "lang": "Redux" },
+          { "id": 3, "lang": "Jest" },
+          { "id": 4, "lang": "CSS" },
+          { "id": 5, "lang": "SpaceX API" }
+        ],
+        "description": "Space Travelers Hub: a booking website that allows users to book space rockets and join space missions.",
+        "sourceLink": "https://github.com/ibr5500/space-travelers-hub",
+        "liveLink": "https://spacex-booking.netlify.app/"
+      },
+      {
+        "id": 5,
+        "name": "Book Store",
+        "image": "./assets/bookstore.png",
+        "spans": [
+          { "id": 1, "span": "Microverse" },
+          { "id": 2, "span": "front end dev" },
+          { "id": 3, "span": "June-2022" }
+        ],
+        "tools": [
+          { "id": 1, "lang" :"React" },
+          { "id": 2, "lang": "Redux" },
+          { "id": 3, "lang": "Webpack" },
+          { "id": 4, "lang": "Jest" },
+          { "id": 5, "lang": "CSS" }
+        ],
+        "description": "Bookstore: Is a single page app that allows users to monitor their progress in reading.",
+        "sourceLink": "https://github.com/ibr5500/Bookstore",
+        "liveLink": "https://bookssote-app.netlify.app/"
+      },
+      {
+        "id": 6,
+        "name": "Math-Magicians",
+        "image": "./assets/math.png",
+        "spans": [
+          { "id": 1, "span": "Microverse" },
+          { "id": 2, "span": "front end dev" },
+          { "id": 3, "span": "June-2022" }
+        ],
+        "tools": [
+          { "id": 1, "lang" :"React" },
+          { "id": 2, "lang": "Webpack" },
+          { "id": 3, "lang": "Jest" },
+          { "id": 4, "lang": "CSS" }
+        ],
+        "description": "Math Magicians: Is a single page Calculator app, and contain some facts about calculator.",
+        "sourceLink": "https://github.com/ibr5500/Math-Magicians",
+        "liveLink": "https://ibr5500calculator.netlify.app/"
+      },
+      {
+        "id": 7,
         "name": "Foodify Kitchenball",
         "image": "./assets/fodify.png",
         "spans": [
-          { "id": 1, "span": "Microverse"},
-          {"id": 2, "span": "full stack dev"},
-          {"id": 3, "span": "October-2022"}
+          { "id": 1, "span": "Microverse" },
+          { "id": 2, "span": "full stack dev" },
+          { "id": 3, "span": "May-2022" }
         ],
         "tools": [
           { "id": 1, "lang" :"HTML" },
           { "id": 2, "lang": "CSS" },
-          {"id": 3, "lang": "JavaScript" },
-          {"id": 4, "lang": "Webpack" },
-          {"id":5, "lang": "MealDB API"}
+          { "id": 3, "lang": "JavaScript" },
+          { "id": 4, "lang": "Webpack" },
+          { "id": 5, "lang": "Meal_DB API" }
         ],
         "description": "Foodify Kitchenball, a recipes website for vegetarian foods.",
         "sourceLink": "https://github.com/ibr5500/Foodify-Kitchenball",
