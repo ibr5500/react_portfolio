@@ -382,6 +382,10 @@ body {
   padding: 10px 0 0 0;
 }
 
+.rails > span {
+  padding: 5px 0 0 0;
+}
+
 .pro-skills-list {
   display: grid;
   grid-template-columns: auto;
