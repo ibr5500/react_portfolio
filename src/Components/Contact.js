@@ -60,7 +60,7 @@ const Contact = () => {
         <div className="col-auto">
           <label htmlFor="email" className="visually-idden d-flex flex-row">
             <input
-              type="text"
+              type="email"
               className="form-control"
               id="email"
               name="email"
