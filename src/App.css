@@ -31,6 +31,10 @@
   }
 }
 
+.menubar {
+  color: #fffbfb;
+}
+
 .nav-list {
   display: flex;
   flex-direction: row;
@@ -785,4 +789,8 @@ body {
 
 .border-b {
   border-bottom: 1px solid #67a799;
+}
+
+.err-page {
+  color: #fffbfb;
 }
