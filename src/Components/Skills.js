@@ -8,7 +8,7 @@ import {
 import { DiRuby } from 'react-icons/di';
 import { BsFillBootstrapFill } from 'react-icons/bs';
 
-const Skills = () => {
+function Skills() {
   const langs = [
     { id: 1, name: 'html', icon: <FaHtml5 /> },
     { id: 2, name: 'css', icon: <FaCss3Alt /> },
@@ -112,6 +112,6 @@ const Skills = () => {
       </div>
     </section>
   );
-};
+}
 
 export default Skills;

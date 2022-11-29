@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import { BsFillEmojiSmileFill } from 'react-icons/bs';
 import { FaSmileBeam } from 'react-icons/fa';
 
-const Contact = () => {
+function Contact() {
   const navigate = useNavigate();
   const [data, setData] = useState({
     fname: '',
@@ -98,6 +98,6 @@ const Contact = () => {
       </form>
     </section>
   );
-};
+}
 
 export default Contact;
