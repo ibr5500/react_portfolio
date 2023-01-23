@@ -49,6 +49,50 @@
     ],
     "projects": [
       {
+        "id": 0,
+        "name": "Events App",
+        "image": "./assets/events.png",
+        "spans": [
+          {
+            "id": 1,
+            "span": "Personal Project"
+          },
+          {
+            "id": 2,
+            "span": "full stack dev"
+          },
+          {
+            "id": 3,
+            "span": "January-2023"
+          }
+        ],
+        "tools": [
+          {
+            "id": 1,
+            "lang": "React"
+          },
+          {
+            "id": 2,
+            "lang": "Next.js"
+          },
+          {
+            "id": 3,
+            "lang": "Sass"
+          },
+          {
+            "id": 4,
+            "lang": "CSS"
+          },
+          {
+            "id": 6,
+            "lang": "API"
+          }
+        ],
+        "description": "Events app (full stack web): is a full stack project that allows the user to check the events based on cities, and register to attend events.",
+        "sourceLink": "https://github.com/ibr5500/events-app",
+        "liveLink": "https://events-app-gamma.vercel.app/"
+      },
+      {
         "id": 1,
         "name": "We Fly Digital",
         "image": "./assets/fly-digital.png",
