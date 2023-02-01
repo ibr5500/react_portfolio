@@ -1,5 +1,5 @@
 import React from 'react';
-import Side from './Side'; // eslint-disable-line
+import Side from "./Side"; // eslint-disable-line
 
 function Home() {
   return (
@@ -12,7 +12,6 @@ function Home() {
         <h1 className="name">Ibrahim Ahmat</h1>
         <h3 className="career">software developer</h3>
         <h5>&#34;Full stack developer&#34;</h5>
-        <p>frontend (React), backend (Ruby on Rails)</p>
       </div>
     </div>
   );
