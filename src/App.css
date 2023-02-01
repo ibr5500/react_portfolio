@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
 
 .nav {
+  position: -webkit-sticky;
   position: sticky;
   z-index: 10;
   top: 0;
@@ -312,6 +313,7 @@ body {
 
 .dev-img {
   transform: scaleX(-1);
+  width: -moz-fit-content;
   width: fit-content;
   height: 75px;
   filter: grayscale(0.2);
@@ -358,6 +360,7 @@ body {
 }
 
 .box-title {
+  width: -moz-fit-content;
   width: fit-content;
   height: auto;
   color: #89cdbe;
@@ -705,6 +708,7 @@ body {
 
 .card {
   height: 400px;
+  width: -moz-fit-content;
   width: fit-content;
   color: #245148;
   background: #fffbfb;
@@ -724,6 +728,7 @@ body {
 }
 
 .card-btns {
+  width: -moz-fit-content;
   width: fit-content;
   height: auto;
   gap: 5px;
