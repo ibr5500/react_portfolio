@@ -344,7 +344,6 @@ body {
 .contact-link:hover,
 .resume:hover {
   color: #e1c153;
-  font-style: italic;
   transform: scale(1.2, 1.2);
 }
 
